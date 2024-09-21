@@ -3,11 +3,17 @@
 ## Session 1
 
 ### Part 1 - git
- - the CLI (gitbash powershell, command prompt)
- - some OS CLI commands (ls, cd, pwd)
- - creating a local repository and adding a remote repository
- - cloning a remote repository
- - pulling the changes from a remote repository
+ - The CLI (gitbash powershell, command prompt)
+ - Some OS CLI commands (ls, cd, pwd)
+ - Creating a local repository and adding a remote repository
+ - Cloning a remote repository
+ - Pulling the changes from a remote repository
+
+### Part 2 - JavaScript
+- Variables and data types
+- Casting strings to numbers
+- Input data & output data; using modal dialogs (prompt, alert) to collect input data / output data
+- The first program: sum of 2 numbers
 
 ## Session 2
 
@@ -20,5 +26,3 @@
 - Recap: prompt & alert modal boxes
 - Operators: arithmetic (+, - , *, /, %), comparison (>, <, >=, <=, ==, ===), logical (&&, ||, !)
 - Control structures: decisional (IF, SWITCH), repetitive (while, do-while, for)
-- Vectors and objects
-- Functions
