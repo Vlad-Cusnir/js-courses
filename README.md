@@ -26,3 +26,24 @@
 - Recap: prompt & alert modal boxes
 - Operators: arithmetic (+, - , *, /, %), comparison (>, <, >=, <=, ==, ===), logical (&&, ||, !)
 - Control structures: decisional (IF, SWITCH), repetitive (while, do-while, for)
+
+## Session 3
+
+### Part 1 - Recap
+- iterations (sum of 3 numbers)
+
+### Part 2 - JavaScript flow control structure
+- if-else-if
+- switch
+- ternary operator
+
+### Part 3 - JavaScript logical operators
+- AND
+- OR
+- NOT
+
+### Part 4 - JavaScript Arrays and Objects
+- array & object literals
+
+### Part 5 - JavaScript functions
+- 
