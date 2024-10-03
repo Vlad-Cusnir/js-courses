@@ -32,7 +32,7 @@
 ### Part 1 - Recap
 - iterations (sum of 3 numbers)
 
-### Part 2 - JavaScript flow control structure
+### Part 2 - JavaScript flow control structures
 - if-else-if
 - switch
 - ternary operator
@@ -42,8 +42,7 @@
 - OR
 - NOT
 
-### Part 4 - JavaScript Arrays and Objects
-- array & object literals
-
-### Part 5 - JavaScript functions
-- 
+### Part 4 - JavaScript Arrays 
+- Creating an array, adding elements, removing elements
+- Iterating trough an array
+- Displaying the array elements in modaal dialogue boxes and in the console

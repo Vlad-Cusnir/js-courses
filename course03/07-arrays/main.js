@@ -13,8 +13,9 @@ for (let i = 0; i < gradesNumber; i++) {
 }
 
 // display each element of an array
-// for (let i = 0; i < grades.length; i++) {
-//     alert(grades[i]);
-// }
+for (let i = 0; i < grades.length; i++) {
+    alert(grades[i]);
+}
 
+// display tyhe elements in the console
 console.log(grades);
