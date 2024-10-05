@@ -46,3 +46,18 @@
 - Creating an array, adding elements, removing elements
 - Iterating trough an array
 - Displaying the array elements in modaal dialogue boxes and in the console
+
+## Session 4
+
+### Part 1 - Recap
+- generating random options (instead of numbers)
+
+### Part 2 - Functions
+- declaring a function
+- calling a function
+- return keyword
+- function parameters / arguments
+- variables scopes
+
+### Part 3 - The Document Object Model
+- DOM - introduction
