@@ -1,5 +1,7 @@
 # SIIT WEBFRONTEND-52 JavaScript Sessions
 
+
+
 ## Session 1 (2 courses)
 
 ### Part 1 - git
@@ -15,6 +17,12 @@
 - Input data & output data; using modal dialogs (prompt, alert) to collect input data / output data
 - The first program: sum of 2 numbers
 
+### Video resources
+- [Git It? How to use Git and Github](https://youtu.be/HkdAHXoRtos?si=ERhEGQZNSz4qX4Wc) by Fireship
+- [Learn Git in 20 Minutes](https://youtu.be/IHaTbJPdB-s?si=lxGhHfrgYwvhJ4ag) by Web Dev Simplified
+
+
+
 ## Session 2 (2 courses)
 
 ### Part 1 - git
@@ -26,6 +34,14 @@
 - Recap: prompt & alert modal boxes
 - Operators: arithmetic (+, - , *, /, %), comparison (>, <, >=, <=, ==, ===), logical (&&, ||, !)
 - Control structures: decisional (IF, SWITCH), repetitive (while, do-while, for)
+
+### Video resources
+- [Computer Science Basics: Sequences, Selections, and Loops](https://youtu.be/eSYeHlwDCNA?si=SpGrjmojIKcQKPlH) by LearnFree
+- [Coding Basics: Variables | Programming for Beginners](https://youtu.be/ghCbURMWBD8?si=qHj_jCcIU94sgtYG) by Transcode
+- [Coding Basics: If Statements, If Else, Else - Coding Tutorial For Java, C, and C++!](https://youtu.be/HQ3dCWjfRZ4?si=g61N87Y8eniGlVav) by Transcode
+- [Coding Basics: While Loops & Do While Loops | Programming for Beginners](https://youtu.be/v-K-4KuA8mQ?si=jOO55v2yoVEFIM5C) by Transcode
+
+
 
 ## Session 3 (2 courses)
 
@@ -45,7 +61,15 @@
 ### Part 4 - JavaScript Arrays 
 - Creating an array, adding elements, removing elements
 - Iterating trough an array
-- Displaying the array elements in modaal dialogue boxes and in the console
+- Displaying the array elements in modal dialogue boxes and in the console
+
+### Video resources
+- [Coding Basics: Switch Statements | Programming for Beginners](https://youtu.be/frSpkF-sPYk?si=ziybKCwkqD8ZIXak) by Transcode
+- [JavaScript TERNARY OPERATOR in 6 minutes!](https://youtu.be/atS_A9HHAVo?si=GQhIfY_Ng3KfMHOX) by Bro Code
+- [Learn JavaScript LOGICAL OPERATORS in 5 minutes!](https://youtu.be/ovWYhDVQiR8?si=ljsVSSZmhbKg76fl) by Bro Code
+- [JavaScript Arrays Crash Course](https://youtu.be/7W4pQQ20nJg?si=mpFvQFUF6QeHsirH) by Web Dev Simplified
+
+
 
 ## Session 4 (2 courses)
 
@@ -67,13 +91,13 @@
 ### Part 1 - Recap
 - generating random color and display it in the browser
 
-### Part 2 - JS object litaral
+### Part 2 - JS object literals
 - what is an object literal
 - object properties & values
 - object methods
 - the **this** keyword
 - creating an object factory
-- considerations on objects having the same properties and methods (class concept)
+- considerations on objects having the same properties and methods (the class concept)
 
 ### Part 3 - DOM manipulation
 - what is the DOM & when is created? 
