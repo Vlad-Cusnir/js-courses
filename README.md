@@ -1,6 +1,6 @@
 # SIIT WEBFRONTEND-52 JavaScript Sessions
 
-## Session 1
+## Session 1 (2 courses)
 
 ### Part 1 - git
  - The CLI (gitbash powershell, command prompt)
@@ -15,7 +15,7 @@
 - Input data & output data; using modal dialogs (prompt, alert) to collect input data / output data
 - The first program: sum of 2 numbers
 
-## Session 2
+## Session 2 (2 courses)
 
 ### Part 1 - git
  - Recap: creating a repo, commits and push
@@ -27,7 +27,7 @@
 - Operators: arithmetic (+, - , *, /, %), comparison (>, <, >=, <=, ==, ===), logical (&&, ||, !)
 - Control structures: decisional (IF, SWITCH), repetitive (while, do-while, for)
 
-## Session 3
+## Session 3 (2 courses)
 
 ### Part 1 - Recap
 - iterations (sum of 3 numbers)
@@ -47,7 +47,7 @@
 - Iterating trough an array
 - Displaying the array elements in modaal dialogue boxes and in the console
 
-## Session 4
+## Session 4 (2 courses)
 
 ### Part 1 - Recap
 - generating random options (instead of numbers)
@@ -61,3 +61,31 @@
 
 ### Part 3 - The Document Object Model
 - DOM - introduction
+
+## Session 5 (1 course)
+
+### Part 1 - Recap
+- generating random color and display it in the browser
+
+### Part 2 - JS object litaral
+- what is an object literal
+- object properties & values
+- object methods
+- the **this** keyword
+- creating an object factory
+- considerations on objects having the same properties and methods (class concept)
+
+### Part 3 - DOM manipulatioon
+- what is the DOM & when is created? 
+- accessing via JS the DOM elements
+    - document.querySelector() method
+    - document.querySelectorAll() method
+    - document.getElementById() method
+    - document.getElementsByClassName() method
+- retrieving the DOM elements attribute / properties
+    - via element property name: element.propertiyName
+    - via getAttribute() method: element.getAttribute('attributeName')
+- setting the DOM elements attribute / properties
+    - via element property name: element.propertiyName = newValue
+    - via setAttribute() method: element.setAttribute('attributeName', newValue)
+- removing DOM elements using element.remove() methods
