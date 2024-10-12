@@ -32,14 +32,14 @@
 ### Part 2 - JavaScript
 - Recap: number, string, boolean datatypes & casting
 - Recap: prompt & alert modal boxes
-- Operators: arithmetic (+, - , *, /, %), comparison (>, <, >=, <=, ==, ===), logical (&&, ||, !)
+- Operators: arithmetic (+, - , *, /, %), comparison (>, <, >=, <=, ==, ===), logical (&&, \|\|, !)
 - Control structures: decisional (IF, SWITCH), repetitive (while, do-while, for)
 
 ### Video resources
 - [Computer Science Basics: Sequences, Selections, and Loops](https://youtu.be/eSYeHlwDCNA?si=SpGrjmojIKcQKPlH) by LearnFree
-- [Coding Basics: Variables | Programming for Beginners](https://youtu.be/ghCbURMWBD8?si=qHj_jCcIU94sgtYG) by Transcode
+- [Coding Basics: Variables \| Programming for Beginners](https://youtu.be/ghCbURMWBD8?si=qHj_jCcIU94sgtYG) by Transcode
 - [Coding Basics: If Statements, If Else, Else - Coding Tutorial For Java, C, and C++!](https://youtu.be/HQ3dCWjfRZ4?si=g61N87Y8eniGlVav) by Transcode
-- [Coding Basics: While Loops & Do While Loops | Programming for Beginners](https://youtu.be/v-K-4KuA8mQ?si=jOO55v2yoVEFIM5C) by Transcode
+- [Coding Basics: While Loops & Do While Loops \| Programming for Beginners](https://youtu.be/v-K-4KuA8mQ?si=jOO55v2yoVEFIM5C) by Transcode
 
 
 
@@ -64,7 +64,7 @@
 - Displaying the array elements in modal dialogue boxes and in the console
 
 ### Video resources
-- [Coding Basics: Switch Statements | Programming for Beginners](https://youtu.be/frSpkF-sPYk?si=ziybKCwkqD8ZIXak) by Transcode
+- [Coding Basics: Switch Statements \| Programming for Beginners](https://youtu.be/frSpkF-sPYk?si=ziybKCwkqD8ZIXak) by Transcode
 - [JavaScript TERNARY OPERATOR in 6 minutes!](https://youtu.be/atS_A9HHAVo?si=GQhIfY_Ng3KfMHOX) by Bro Code
 - [Learn JavaScript LOGICAL OPERATORS in 5 minutes!](https://youtu.be/ovWYhDVQiR8?si=ljsVSSZmhbKg76fl) by Bro Code
 - [JavaScript Arrays Crash Course](https://youtu.be/7W4pQQ20nJg?si=mpFvQFUF6QeHsirH) by Web Dev Simplified
