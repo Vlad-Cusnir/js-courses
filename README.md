@@ -75,7 +75,7 @@
 - creating an object factory
 - considerations on objects having the same properties and methods (class concept)
 
-### Part 3 - DOM manipulatioon
+### Part 3 - DOM manipulation
 - what is the DOM & when is created? 
 - accessing via JS the DOM elements
     - document.querySelector() method
@@ -89,3 +89,7 @@
     - via element property name: element.propertiyName = newValue
     - via setAttribute() method: element.setAttribute('attributeName', newValue)
 - removing DOM elements using element.remove() methods
+
+### Video resources
+- [DOM API - JavaScript Tutorial for beginners](https://youtu.be/wbQLEXg_urE?si=HKM9Au3XVBjs007J) by ColorCode
+- [Learn DOM Manipulation In 18 Minutes](https://youtu.be/y17RuWkWdn8?si=hysgVE7b4XS_SzFm) by Web Dev Simplified
