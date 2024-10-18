@@ -1,0 +1,35 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#add-player{
+    border: 1px solid;
+    padding: 0 1rem;
+}
+
+.form-section{
+    margin-bottom: 1rem;
+}
+
+#players-list {
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid;
+    padding: 1rem;
+    min-width: 12rem;
+    text-align: center;
+}

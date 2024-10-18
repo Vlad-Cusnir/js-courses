@@ -119,3 +119,8 @@
 - [Object Oriented JavaScript Tutorial #3 - Updating Properties](https://youtu.be/ni9e-lOEw3Q?si=MNNc_BvnrCyXPwwS) by Net Ninja
 - [DOM API - JavaScript Tutorial for beginners](https://youtu.be/wbQLEXg_urE?si=HKM9Au3XVBjs007J) by ColorCode
 - [Learn DOM Manipulation In 18 Minutes](https://youtu.be/y17RuWkWdn8?si=hysgVE7b4XS_SzFm) by Web Dev Simplified
+
+
+
+## Session 4 (1 course)
+### Part 1 - Recap: DOM manipulation

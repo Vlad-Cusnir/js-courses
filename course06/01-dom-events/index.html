@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM & Events</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Main title</h1>
+
+        <div id="add-player">
+            <h2>Add player</h2>
+            <div class="form-section">
+                <label for="player-name">Name: </label>
+                <input type="text" id="player-name">
+            </div>
+            <div class="form-section">
+                <label for="player-color">Color: </label>
+                <input type="color" id="player-color">
+            </div>
+            <div class="form-section">
+                <button>Add player</button>
+            </div>
+        </div>
+
+        <div id="players-list">
+            <h2>Players list</h2>
+
+            <div class="cards-container">
+                <div class="card">
+                    <h2 style="color: #FF0000;">Player 1</h2>
+                    <img src="https://api.dicebear.com/9.x/adventurer/svg?seed=Player 1" alt="avatar" />
+                    Score: <span>0</span>
+                </div>
+                <div class="card">
+                    <h2 style="color: #929209;">Player 2</h2>
+                    <img src="https://api.dicebear.com/9.x/adventurer/svg?seed=Player 2" alt="avatar" />
+                    Score: <span>0</span>
+                </div>
+                <div class="card">
+                    <h2  style="color: #FF00FF;">Player 3</h2>
+                    <img src="https://api.dicebear.com/9.x/adventurer/svg?seed=Player 3" alt="avatar" />
+                    Score: <span>0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
