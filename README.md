@@ -2,7 +2,7 @@
 
 
 
-## Session 1 (2 courses)
+## Session 1 (Courses 1, 2)
 
 ### Part 1 - git
  - The CLI (gitbash powershell, command prompt)
@@ -23,7 +23,7 @@
 
 
 
-## Session 2 (2 courses)
+## Session 2 (Courses 3, 4)
 
 ### Part 1 - git
  - Recap: creating a repo, commits and push
@@ -43,7 +43,7 @@
 
 
 
-## Session 3 (2 courses)
+## Session 3 (Courses 5, 6)
 
 ### Part 1 - Recap
 - iterations (sum of 3 numbers)
@@ -71,7 +71,7 @@
 
 
 
-## Session 4 (2 courses)
+## Session 4 (Courses 7, 8)
 
 ### Part 1 - Recap
 - generating random options (instead of numbers)
@@ -86,7 +86,7 @@
 ### Part 3 - The Document Object Model
 - DOM - introduction
 
-## Session 5 (1 course)
+## Session 5 (Course 9)
 
 ### Part 1 - Recap
 - generating random color and display it in the browser
@@ -122,5 +122,25 @@
 
 
 
-## Session 4 (1 course)
-### Part 1 - Recap: DOM manipulation
+## Session 6 (Course 10)
+
+### Part 1 - DOM manipulation & events
+- Recap: retrieving DOM Elements using *document.getElementsByTagName()* vs. *document.querySelector()*
+- Recap: creating & adding DOM Elements using document.createElement() and *element.append()*
+- Adding text nodes in DOM using *document.createTextNode()*
+- Dynamically adding event listeners on created DOM elements
+- The Event object in event handlers 
+
+### Part 2 - Web concepts, HTTP, fetch
+- Recap: How browsers work and  what HTTP is
+- What is an API? 
+- Using Bruno API client to comunicate with an API
+- Using fetch() in JavaScript to retrieve data from an API
+
+### Video resources
+- [5 MUST KNOW JavaScript DOM Methods](https://youtu.be/XVNLsTJHwqE?si=ILfLr8RHgUt-odHi) by dcode
+- [What Exactly Are Nodes In The JavaScript DOM?](https://youtu.be/PvIr26Ld9Rk?si=aHNCsM_tXKIhJiLn) by dcode
+- [A Complete Overview of JavaScript Events](https://youtu.be/YiOlaiscqDY?si=g71tRiM9o-QYnpNh) by dcode
+- [Web Server Concepts and Examples](https://youtu.be/9J1nJOivdyw?si=sxt1qTU3L0Z6Ce5d) by WebConcepts
+- [APIs Explained \| Real World Examples](https://youtu.be/ZveW4_ZJtVY?si=59CKLdygAvsIjB_u) by CertBros
+- [Fetch API - JavaScript Tutorial for beginners](https://youtu.be/ubw2hdQIl4E?si=OCmmi4JjmoULEBAK) by ColorCode
