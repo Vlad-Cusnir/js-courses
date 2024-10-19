@@ -25,6 +25,9 @@
 
 ## Session 2 (Courses 3, 4)
 
+###
+1. [The user specifies a number. The program counts from 0 to the specified number in one single output](https://siit-webdev-52.github.io/js-courses/course02/07-iterations-example/)
+
 ### Part 1 - git
  - Recap: creating a repo, commits and push
  - Git branches & merge
@@ -44,6 +47,10 @@
 
 
 ## Session 3 (Courses 5, 6)
+
+### Session projects
+1. [Sum of numbers given by the user](https://siit-webdev-52.github.io/js-courses/course03/01-recap/)
+2. [Input 2 numbers and an operation sign and display the result](https://siit-webdev-52.github.io/js-courses/course03/03-switch/)
 
 ### Part 1 - Recap
 - iterations (sum of 3 numbers)
@@ -73,6 +80,10 @@
 
 ## Session 4 (Courses 7, 8)
 
+### Session projects
+1. [Random student picker](https://siit-webdev-52.github.io/js-courses/course04/02-functions-1/)
+2. [Simple click counter](https://siit-webdev-52.github.io/js-courses/course04/05-dom/)
+
 ### Part 1 - Recap
 - generating random options (instead of numbers)
 
@@ -86,7 +97,16 @@
 ### Part 3 - The Document Object Model
 - DOM - introduction
 
+### Video resources
+- [How To Create/Use Functions - JavaScript EssentialsHow To Create/Use Functions - JavaScript Essentials](https://youtu.be/FOD408a0EzU?si=bnE0Ed0wONX0TZse) by Web Dev Simplified
+- [The JavaScript DOM explained in 5 minutes! 🌳](https://youtu.be/NO5kUNxGIu0?si=UziKOavy-Q5RLXk0) by BroCode
+
+
+
 ## Session 5 (Course 9)
+
+### Session project
+[A random color generator](https://siit-webdev-52.github.io/js-courses/course05/01-recap/)
 
 ### Part 1 - Recap
 - generating random color and display it in the browser
@@ -124,6 +144,9 @@
 
 ## Session 6 (Course 10)
 
+### Session project
+[A UI to add and delete players](https://siit-webdev-52.github.io/js-courses/course06/01-dom-events/)
+
 ### Part 1 - DOM manipulation & events
 - Recap: retrieving DOM Elements using *document.getElementsByTagName()* vs. *document.querySelector()*
 - Recap: creating & adding DOM Elements using document.createElement() and *element.append()*
@@ -132,7 +155,7 @@
 - The Event object in event handlers 
 
 ### Part 2 - Web concepts, HTTP, fetch
-- Recap: How browsers work and  what HTTP is
+- Recap: How browsers work and what HTTP is
 - What is an API? 
 - Using Bruno API client to comunicate with an API
 - Using fetch() in JavaScript to retrieve data from an API
