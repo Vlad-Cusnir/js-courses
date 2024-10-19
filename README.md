@@ -25,8 +25,11 @@
 
 ## Session 2 (Courses 3, 4)
 
-###
-1. [The user specifies a number. The program counts from 0 to the specified number in one single output](https://siit-webdev-52.github.io/js-courses/course02/07-iterations-example/)
+### Session projects
+1. [Prompts the user for his name and 2 values, displays a greeting and the product of the 2 numbers](https://siit-webdev-52.github.io/js-courses/course02/01-recap/)
+2. [Prompts the user a number, displays if a number is positive or negative](https://siit-webdev-52.github.io/js-courses/course02/02-control-structures-if-else/)
+3. [Prompts the user a number, displays the absolute value of the number](https://siit-webdev-52.github.io/js-courses/course02/03-control-structures-if/)
+4. [The user specifies a number. The program counts from 0 to the specified number in one single output](https://siit-webdev-52.github.io/js-courses/course02/07-iterations-example/)
 
 ### Part 1 - git
  - Recap: creating a repo, commits and push
@@ -51,6 +54,7 @@
 ### Session projects
 1. [Sum of numbers given by the user](https://siit-webdev-52.github.io/js-courses/course03/01-recap/)
 2. [Input 2 numbers and an operation sign and display the result](https://siit-webdev-52.github.io/js-courses/course03/03-switch/)
+3. [Guess the number game](https://siit-webdev-52.github.io/js-courses/course03/06-guess-the-number/)
 
 ### Part 1 - Recap
 - iterations (sum of 3 numbers)
