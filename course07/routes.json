@@ -1,6 +1,5 @@
 {
   "/users*": "/600/users$1",
-  "/films*": "/664/films$1",
   "/planets*": "/664/planets$1",
   "/characters*": "/664/characters$1",
   "/species*": "/664/species$1",

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch</title>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <!-- 
+    RESTful APIs
+    REpresentational State Transfer
+
+    HTTP - Request / Response
+
+    Request -> HTTP Verbs/Methods
+      -> Endpoint/URL: http://localhost:3000/
+      -> Resource: /users, /films
+
+    Create POST    /users   -> cream un nou user (informatiile despre noul user se trimit in body-ul requestului)
+    Read   GET     /users   -> primim de la server o lista de utilizatori
+                   /users/2 -> primim de la server un anumit utilizator cu id-ul specificat in url
+    Update PUT     /users/5 -> updatam userul cu id-ul din url prin inlocuirea lui cu ce am tirmis in body-ul requestului  
+           PATCH   /users/3 -> updatam userul cu id-ul din url partial, trimitand catre server doar proprietatile si valorile care trebuiesc actualizate
+    Delete DELETE  /users/7 -> stergem userul cu id-ul 7
+
+    CRUD
+
+    Response -> Status Codes
+    200 - OK
+    201 - CREATED
+
+    400 - BAD REQUEST
+    401 - UNAUTHORIZED
+    403 - NOT ALLOWED
+    404 - NOT FOUND
+    405 - METHOD NOT ALLOWED
+
+    500 - INTERNAL SERVER ERROR
+    502 - GATEWAY ERROR
+  -->
+  <button data-update-film>Update film</button>
+</body>
+</html>
