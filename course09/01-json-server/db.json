@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$.F3KEIEskEcb.sBdDz.jAuuPYCMJy5sVlVWR61e6kZFbr2R2zpu9.",
+      "firstName": "Adi",
+      "lastName": "Moldovan",
+      "id": 1
+    },
+    {
+      "email": "b@b.com",
+      "password": "$2a$10$P2Qef0jUoiHlFdyDXwea5.D0nugyVcKTJh2hWAVIcVbANRa1DPREW",
+      "firstName": "Bogdan",
+      "lastName": "Bob",
+      "id": 2
+    },
+    {
+      "email": "c@c.com",
+      "password": "$2a$10$jHBzOleKil.BinUO7rHnSe36SCBKvCkCYn2EJVyVPmwLRiTXM4iNO",
+      "firstName": "Cristi",
+      "lastName": "Crisan",
+      "id": 3
+    },
+    {
+      "email": "d@d.com",
+      "password": "$2a$10$JUDu3kMNtm05m.vOqzZOJu5p9CdPbKdoBWtucJzVnxh0povQnkMOi",
+      "firstName": "Dan",
+      "lastName": "Dinescu",
+      "id": 4
+    }
+  ],
+  "messages": [
+    {
+      "message": "Hello modified",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "message": "In the pipe 5 by 5",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "message": "Copy that!",
+      "userId": 1,
+      "id": 3
+    }
+  ]
+}
