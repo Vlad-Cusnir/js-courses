@@ -171,3 +171,56 @@
 - [Web Server Concepts and Examples](https://youtu.be/9J1nJOivdyw?si=sxt1qTU3L0Z6Ce5d) by WebConcepts
 - [APIs Explained \| Real World Examples](https://youtu.be/ZveW4_ZJtVY?si=59CKLdygAvsIjB_u) by CertBros
 - [Fetch API - JavaScript Tutorial for beginners](https://youtu.be/ubw2hdQIl4E?si=OCmmi4JjmoULEBAK) by ColorCode
+
+
+
+## Session 7 (Course 10)
+
+### RESTful APIs
+- HTTP Request / Response
+- HTTP Verbs / Methods (CRUD: GET, POST, PUT, PATCH, DELETE)
+- Resources (e.g. a "user," "order," or "product").
+- Endpoints (e.g. /users, /orders or /products)
+- Resources representations (a structured format like JSON or XML, which clients can easily parse and use.)
+- Response Status Codes:
+    - 200 - OK
+    - 201 - CREATED
+    - 400 - BAD REQUEST
+    - 401 - UNAUTHORIZED
+    - 403 - NOT ALLOWED
+    - 404 - NOT FOUND
+    - 405 - METHOD NOT ALLOWED
+    - 500 - INTERNAL SERVER ERROR
+    - 502 - GATEWAY ERROR
+
+
+
+## Session 8 (Course 10)
+
+### Session project
+[Implementation of a UI for presenting data retrieved from an API](https://siit-webdev-52.github.io/js-courses/course08/01-fetch-recap)
+
+### Part 1 - Integrating DOM manipulation and Fetch (GET)
+The session project's implementation includes two anchors, authors and books. Clicking on either anchor triggers a GET request, and upon receiving the response, the corresponding resource list is displayed using DOM manipulation.
+
+### Part 2 - Asynchronuos JavaScript
+- The built-in JavaScript functions **setTimeout()** and **setInterval()**
+- Understanding the event loop: 
+    - The **call stack** (and the reason behind its name).
+    - the browser **WebAPIs** (document & event listeners, fetch, setTimeout, setInterval)
+    - the **callback queue** and its role in asynchronous execution
+
+### Part 3 - Arrow functions
+- The syntax: arrow functions provide a shorter syntax for writing functions
+- Implicit return: if the function body consists of a single expression, the value is returned automatically (no need for return)
+- Single parameter: parentheses can be omitted if there is only one parameter
+
+## Session 9 (Course 10)
+
+
+
+## Session 10 (Course 10)
+
+
+
+## Session 11 (Course 10)
