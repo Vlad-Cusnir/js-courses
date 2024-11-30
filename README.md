@@ -215,12 +215,91 @@ The session project's implementation includes two anchors, authors and books. Cl
 - Implicit return: if the function body consists of a single expression, the value is returned automatically (no need for return)
 - Single parameter: parentheses can be omitted if there is only one parameter
 
+
+
 ## Session 9 (Course 10)
+
+### Part 1 - JSON Server
+- **Node.js** - a JavaScript runtime that allows you to run JavaScript on the server-side
+- **npm (Node Package Manager)** - a package manager that allows developers to install and manage libraries and frameworks
+- The **npm install** command - downloads and installs dependencies listed in a project's package.json file
+- The **npm run** command - executes custom scripts defined in the scripts section of a project's package.json file
+
+### Part 2 - Advanced functions usage in JavaScript
+JavaScript allows functions to be assigned to variables, treating them as first-class objects, enabling function calls through the variable.
+
+### Part 3 - Array methods
+- Transform data: map(), filter(), reduce().
+- Search and check: find(), includes(), some(), every()
+- Organize data: sort(), reverse(), slice(), splice()
+
+### Part 4 - Higher order functions
+A higher-order function is a function that either takes other functions as arguments, returns a function, or both.
+
+Common higher-order functions include map(), filter(), and reduce(), which operate on arrays.
+
+### Part 5 - Self calling fucnctions in JS
+**A self-calling function**, also known as an Immediately Invoked Function Expression (IIFE), is a function that runs as soon as it is defined.
+- The function is wrapped in parentheses to treat it as an expression.
+- It's immediately executed by appending () at the end.
+``` 
+(function() {
+  console.log("I run immediately!");
+})();
+``` 
 
 
 
 ## Session 10 (Course 10)
 
+### Part 1 - Assigning by value vs assigning by refference 
+- **The Stack and the Heap** - areas of memory used for storing data
+- **The Stack** - used for storing small, simple, fixed-size data like primitives and function calls, *with fast access*.
+- **The Heap** - used for storing larger, more complex data like objects, with slower but *more flexible memory management*.
+- **Primitive values** (numbers, strings, booleans, undefined, null, symbol, bigInt) are assigned by value, meaning changes to one variable do not affect others.
+- **Objects are assigned by reference**, meaning changes to one variable will affect all references pointing to the same object or array.
+
+### Part 2 - Closures
+A closure is created when a function is defined inside another function, and the inner function references variables from the outer function. 
+
+### Part 3 - Fetch with a callback function
+Using a callback function with fetch() helps avoid high coupling by decoupling the fetch logic from the logic that handles the response.
+
+#### Benefits:
+1. You can change the callback behavior without changing the fetch implementation.
+2. The fetchData function can be reused with different callback functions for various use cases.
+ 
+### Part 4 - Async await
+Using async and await are used in JavaScript to simplify working with asynchronous code, making it more readable and easier to understand.
+
+#### Benefts:
+1. async functions return a Promise, and await waits for that Promise to resolve.
+2. his provides a cleaner, more readable way to handle asynchronous operations compared to chaining .then() and .catch().
+
+### Part 5 - Promises intro
+A **Promise** in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation
+
+#### Key Concepts:
+1. States: Pending, Fulfilled, Rejected
+2. Methods: then(), catch(), finally()
 
 
-## Session 11 (Course 10)
+
+## Session 11 (Course 10) - Promises
+
+### Part 1 - Avoiding a callback in fetch by using promises
+Handling the asynchronous operation with Promises directly, rather than using a callback function, determines a cleaner code and simplifies the management of both the result and errors.
+
+### Part 2 - Chaining promises
+- A deeper dive into the fetch() and response.json() promises
+- Returning a value within the then() method creates a new chained promise
+- Simulating two consecutive promises: one for checking stock availability and another for placing an order
+- Handling reject() and throwing errors within chained promises
+
+### Part 3 - Executing multiple promises in parallel using Promise.all()
+Implementing a simulated price check from different providers using promises. Once all the promises are resolved, selecting the lowest price.
+
+#### Key Features
+1. **Parallel Execution:** Promise.all() runs multiple promises simultaneously, instead of one after the other.
+2. **Resolution:** The resulting promise resolves with an array of resolved values from all the input promises, in the order they were passed to Promise.all().
+3. **Rejection:** If any promise is rejected, the entire Promise.all() call is rejected, and the error from the first rejected promise is returned.
