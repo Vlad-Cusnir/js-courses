@@ -193,6 +193,11 @@
     - 500 - INTERNAL SERVER ERROR
     - 502 - GATEWAY ERROR
 
+### Video resources
+- [What Is REST API? Examples And How To Use It: Crash Course System Design #3](https://youtu.be/-mN3VyJuCjM?si=Rw-TZsg4aZ0DJCCX) by 
+ByteByteGo
+- [JavaScript Fetch API 👨🏻‍💻 in 1 Minute #shorts](https://youtube.com/shorts/3ySZQXVjCoM?si=p8fWVbYuReOUsDBb) by ColorCode 
+
 
 
 ## Session 8 (Course 10)
@@ -215,6 +220,11 @@ The session project's implementation includes two anchors, authors and books. Cl
 - Implicit return: if the function body consists of a single expression, the value is returned automatically (no need for return)
 - Single parameter: parentheses can be omitted if there is only one parameter
 
+### Video resources
+- [What the heck is the event loop anyway? \| Philip Roberts \| JSConf EU](https://youtu.be/8aGhZQkoFbQ?si=v4RaJuNiV8ypHO3p) by 
+JSConf
+- [JavaScript ES6 Arrow Functions Tutorial](https://youtu.be/h33Srr5J9nY?si=Sxxe7tmARlZKwtw4) by Web Dev Simplified
+
 
 
 ## Session 9 (Course 10)
@@ -235,10 +245,9 @@ JavaScript allows functions to be assigned to variables, treating them as first-
 
 ### Part 4 - Higher order functions
 A higher-order function is a function that either takes other functions as arguments, returns a function, or both.
-
 Common higher-order functions include map(), filter(), and reduce(), which operate on arrays.
 
-### Part 5 - Self calling fucnctions in JS
+### Part 5 - Self calling functions in JS
 **A self-calling function**, also known as an Immediately Invoked Function Expression (IIFE), is a function that runs as soon as it is defined.
 - The function is wrapped in parentheses to treat it as an expression.
 - It's immediately executed by appending () at the end.
@@ -248,11 +257,18 @@ Common higher-order functions include map(), filter(), and reduce(), which opera
 })();
 ``` 
 
+### Video resources
+- [npm for absolute beginners](https://youtu.be/UYz-9UaUp2E?si=HzDsV_sErDFwd9zz) by Kevin Powell
+- [7 Benefits of First-Class Functions - JavaScript Tutorial](https://youtu.be/nGDPm86Btlw?si=nRQcYCJ_7Oz0_CJ9) by ColorCode
+- [8 Must Know JavaScript Array Methods](https://youtu.be/R8rmfD9Y5-c?si=Z35B2JoLqqbkxDKj) by Web Dev Simplified
+- [Higher Order Functions - JavaScript Tutorial](https://youtu.be/0aKZvNNf8BA?si=Y2H_2ri0b3INeHBl) by ColorCode
+- [Immediately Invoked Function Expression - Beau teaches JavaScript](https://youtu.be/3cbiZV4H22c?si=NWnibz3fmKo_53Tr) by freeCodeCamp.org
+
 
 
 ## Session 10 (Course 10)
 
-### Part 1 - Assigning by value vs assigning by refference 
+### Part 1 - Assigning by value vs assigning by reference 
 - **The Stack and the Heap** - areas of memory used for storing data
 - **The Stack** - used for storing small, simple, fixed-size data like primitives and function calls, *with fast access*.
 - **The Heap** - used for storing larger, more complex data like objects, with slower but *more flexible memory management*.
@@ -283,6 +299,13 @@ A **Promise** in JavaScript is an object that represents the eventual completion
 1. States: Pending, Fulfilled, Rejected
 2. Methods: then(), catch(), finally()
 
+### Video resources
+- [JavaScript - Reference vs Primitive Values/ Types](https://youtu.be/9ooYYRLdg_g?si=oiiGw8hzH0uN9jAL) by Academind
+- [7 Benefits of First-Class Functions - JavaScript Tutorial](https://youtu.be/nGDPm86Btlw?si=nRQcYCJ_7Oz0_CJ9) by ColorCode
+- [Closures Explained in 100 Seconds // Tricky JavaScript Interview Prep](https://youtu.be/vKJpN5FAeF4?si=4liHy-RGrr871rBJ) by Fireship
+- [JavaScript Async Await 👨🏻‍💻 Tutorial in 1 Minute #shorts](https://youtube.com/shorts/TtnodUZ7xnQ?si=iwnncMMIcO25Kj5g) by ColorCode
+- [JavaScript Promises 👨🏻‍💻in 1 Minute #shorts](https://youtube.com/shorts/Yg1Wf_rFG7Q?si=IIdXCibsI_V8-gpF) by ColorCode
+
 
 
 ## Session 11 (Course 10) - Promises
@@ -303,3 +326,6 @@ Implementing a simulated price check from different providers using promises. On
 1. **Parallel Execution:** Promise.all() runs multiple promises simultaneously, instead of one after the other.
 2. **Resolution:** The resulting promise resolves with an array of resolved values from all the input promises, in the order they were passed to Promise.all().
 3. **Rejection:** If any promise is rejected, the entire Promise.all() call is rejected, and the error from the first rejected promise is returned.
+
+### Video resources
+- [JavaScript Promises -- Tutorial for Beginners](https://youtu.be/TnhCX0KkPqs?si=dzD5Zi1EjFK9nBkQ) by ColorCode
