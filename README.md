@@ -171,3 +171,161 @@
 - [Web Server Concepts and Examples](https://youtu.be/9J1nJOivdyw?si=sxt1qTU3L0Z6Ce5d) by WebConcepts
 - [APIs Explained \| Real World Examples](https://youtu.be/ZveW4_ZJtVY?si=59CKLdygAvsIjB_u) by CertBros
 - [Fetch API - JavaScript Tutorial for beginners](https://youtu.be/ubw2hdQIl4E?si=OCmmi4JjmoULEBAK) by ColorCode
+
+
+
+## Session 7 (Course 10)
+
+### RESTful APIs
+- HTTP Request / Response
+- HTTP Verbs / Methods (CRUD: GET, POST, PUT, PATCH, DELETE)
+- Resources (e.g. a "user," "order," or "product").
+- Endpoints (e.g. /users, /orders or /products)
+- Resources representations (a structured format like JSON or XML, which clients can easily parse and use.)
+- Response Status Codes:
+    - 200 - OK
+    - 201 - CREATED
+    - 400 - BAD REQUEST
+    - 401 - UNAUTHORIZED
+    - 403 - NOT ALLOWED
+    - 404 - NOT FOUND
+    - 405 - METHOD NOT ALLOWED
+    - 500 - INTERNAL SERVER ERROR
+    - 502 - GATEWAY ERROR
+
+### Video resources
+- [What Is REST API? Examples And How To Use It: Crash Course System Design #3](https://youtu.be/-mN3VyJuCjM?si=Rw-TZsg4aZ0DJCCX) by 
+ByteByteGo
+- [JavaScript Fetch API 👨🏻‍💻 in 1 Minute #shorts](https://youtube.com/shorts/3ySZQXVjCoM?si=p8fWVbYuReOUsDBb) by ColorCode 
+
+
+
+## Session 8 (Course 10)
+
+### Session project
+[Implementation of a UI for presenting data retrieved from an API](https://siit-webdev-52.github.io/js-courses/course08/01-fetch-recap)
+
+### Part 1 - Integrating DOM manipulation and Fetch (GET)
+The session project's implementation includes two anchors, authors and books. Clicking on either anchor triggers a GET request, and upon receiving the response, the corresponding resource list is displayed using DOM manipulation.
+
+### Part 2 - Asynchronuos JavaScript
+- The built-in JavaScript functions **setTimeout()** and **setInterval()**
+- Understanding the event loop: 
+    - The **call stack** (and the reason behind its name).
+    - the browser **WebAPIs** (document & event listeners, fetch, setTimeout, setInterval)
+    - the **callback queue** and its role in asynchronous execution
+
+### Part 3 - Arrow functions
+- The syntax: arrow functions provide a shorter syntax for writing functions
+- Implicit return: if the function body consists of a single expression, the value is returned automatically (no need for return)
+- Single parameter: parentheses can be omitted if there is only one parameter
+
+### Video resources
+- [What the heck is the event loop anyway? \| Philip Roberts \| JSConf EU](https://youtu.be/8aGhZQkoFbQ?si=v4RaJuNiV8ypHO3p) by 
+JSConf
+- [JavaScript ES6 Arrow Functions Tutorial](https://youtu.be/h33Srr5J9nY?si=Sxxe7tmARlZKwtw4) by Web Dev Simplified
+
+
+
+## Session 9 (Course 10)
+
+### Part 1 - JSON Server
+- **Node.js** - a JavaScript runtime that allows you to run JavaScript on the server-side
+- **npm (Node Package Manager)** - a package manager that allows developers to install and manage libraries and frameworks
+- The **npm install** command - downloads and installs dependencies listed in a project's package.json file
+- The **npm run** command - executes custom scripts defined in the scripts section of a project's package.json file
+
+### Part 2 - Advanced functions usage in JavaScript
+JavaScript allows functions to be assigned to variables, treating them as first-class objects, enabling function calls through the variable.
+
+### Part 3 - Array methods
+- Transform data: map(), filter(), reduce().
+- Search and check: find(), includes(), some(), every()
+- Organize data: sort(), reverse(), slice(), splice()
+
+### Part 4 - Higher order functions
+A higher-order function is a function that either takes other functions as arguments, returns a function, or both.
+Common higher-order functions include map(), filter(), and reduce(), which operate on arrays.
+
+### Part 5 - Self calling functions in JS
+**A self-calling function**, also known as an Immediately Invoked Function Expression (IIFE), is a function that runs as soon as it is defined.
+- The function is wrapped in parentheses to treat it as an expression.
+- It's immediately executed by appending () at the end.
+``` 
+(function() {
+  console.log("I run immediately!");
+})();
+``` 
+
+### Video resources
+- [npm for absolute beginners](https://youtu.be/UYz-9UaUp2E?si=HzDsV_sErDFwd9zz) by Kevin Powell
+- [7 Benefits of First-Class Functions - JavaScript Tutorial](https://youtu.be/nGDPm86Btlw?si=nRQcYCJ_7Oz0_CJ9) by ColorCode
+- [8 Must Know JavaScript Array Methods](https://youtu.be/R8rmfD9Y5-c?si=Z35B2JoLqqbkxDKj) by Web Dev Simplified
+- [Higher Order Functions - JavaScript Tutorial](https://youtu.be/0aKZvNNf8BA?si=Y2H_2ri0b3INeHBl) by ColorCode
+- [Immediately Invoked Function Expression - Beau teaches JavaScript](https://youtu.be/3cbiZV4H22c?si=NWnibz3fmKo_53Tr) by freeCodeCamp.org
+
+
+
+## Session 10 (Course 10)
+
+### Part 1 - Assigning by value vs assigning by reference 
+- **The Stack and the Heap** - areas of memory used for storing data
+- **The Stack** - used for storing small, simple, fixed-size data like primitives and function calls, *with fast access*.
+- **The Heap** - used for storing larger, more complex data like objects, with slower but *more flexible memory management*.
+- **Primitive values** (numbers, strings, booleans, undefined, null, symbol, bigInt) are assigned by value, meaning changes to one variable do not affect others.
+- **Objects are assigned by reference**, meaning changes to one variable will affect all references pointing to the same object or array.
+
+### Part 2 - Closures
+A closure is created when a function is defined inside another function, and the inner function references variables from the outer function. 
+
+### Part 3 - Fetch with a callback function
+Using a callback function with fetch() helps avoid high coupling by decoupling the fetch logic from the logic that handles the response.
+
+#### Benefits:
+1. You can change the callback behavior without changing the fetch implementation.
+2. The fetchData function can be reused with different callback functions for various use cases.
+ 
+### Part 4 - Async await
+Using async and await are used in JavaScript to simplify working with asynchronous code, making it more readable and easier to understand.
+
+#### Benefts:
+1. async functions return a Promise, and await waits for that Promise to resolve.
+2. his provides a cleaner, more readable way to handle asynchronous operations compared to chaining .then() and .catch().
+
+### Part 5 - Promises intro
+A **Promise** in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation
+
+#### Key Concepts:
+1. States: Pending, Fulfilled, Rejected
+2. Methods: then(), catch(), finally()
+
+### Video resources
+- [JavaScript - Reference vs Primitive Values/ Types](https://youtu.be/9ooYYRLdg_g?si=oiiGw8hzH0uN9jAL) by Academind
+- [7 Benefits of First-Class Functions - JavaScript Tutorial](https://youtu.be/nGDPm86Btlw?si=nRQcYCJ_7Oz0_CJ9) by ColorCode
+- [Closures Explained in 100 Seconds // Tricky JavaScript Interview Prep](https://youtu.be/vKJpN5FAeF4?si=4liHy-RGrr871rBJ) by Fireship
+- [JavaScript Async Await 👨🏻‍💻 Tutorial in 1 Minute #shorts](https://youtube.com/shorts/TtnodUZ7xnQ?si=iwnncMMIcO25Kj5g) by ColorCode
+- [JavaScript Promises 👨🏻‍💻in 1 Minute #shorts](https://youtube.com/shorts/Yg1Wf_rFG7Q?si=IIdXCibsI_V8-gpF) by ColorCode
+
+
+
+## Session 11 (Course 10) - Promises
+
+### Part 1 - Avoiding a callback in fetch by using promises
+Handling the asynchronous operation with Promises directly, rather than using a callback function, determines a cleaner code and simplifies the management of both the result and errors.
+
+### Part 2 - Chaining promises
+- A deeper dive into the fetch() and response.json() promises
+- Returning a value within the then() method creates a new chained promise
+- Simulating two consecutive promises: one for checking stock availability and another for placing an order
+- Handling reject() and throwing errors within chained promises
+
+### Part 3 - Executing multiple promises in parallel using Promise.all()
+Implementing a simulated price check from different providers using promises. Once all the promises are resolved, selecting the lowest price.
+
+#### Key Features
+1. **Parallel Execution:** Promise.all() runs multiple promises simultaneously, instead of one after the other.
+2. **Resolution:** The resulting promise resolves with an array of resolved values from all the input promises, in the order they were passed to Promise.all().
+3. **Rejection:** If any promise is rejected, the entire Promise.all() call is rejected, and the error from the first rejected promise is returned.
+
+### Video resources
+- [JavaScript Promises -- Tutorial for Beginners](https://youtu.be/TnhCX0KkPqs?si=dzD5Zi1EjFK9nBkQ) by ColorCode
