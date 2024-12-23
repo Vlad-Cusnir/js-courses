@@ -174,7 +174,7 @@
 
 
 
-## Session 7 (Course 10)
+## Session 7 (Course 11)
 
 ### RESTful APIs
 - HTTP Request / Response
@@ -200,7 +200,7 @@ ByteByteGo
 
 
 
-## Session 8 (Course 10)
+## Session 8 (Course 12)
 
 ### Session project
 [Implementation of a UI for presenting data retrieved from an API](https://siit-webdev-52.github.io/js-courses/course08/01-fetch-recap)
@@ -227,7 +227,7 @@ JSConf
 
 
 
-## Session 9 (Course 10)
+## Session 9 (Course 13)
 
 ### Part 1 - JSON Server
 - **Node.js** - a JavaScript runtime that allows you to run JavaScript on the server-side
@@ -266,7 +266,7 @@ Common higher-order functions include map(), filter(), and reduce(), which opera
 
 
 
-## Session 10 (Course 10)
+## Session 10 (Course 14)
 
 ### Part 1 - Assigning by value vs assigning by reference 
 - **The Stack and the Heap** - areas of memory used for storing data
@@ -308,7 +308,7 @@ A **Promise** in JavaScript is an object that represents the eventual completion
 
 
 
-## Session 11 (Course 10) - Promises
+## Session 11 (Course 15) - Promises
 
 ### Part 1 - Avoiding a callback in fetch by using promises
 Handling the asynchronous operation with Promises directly, rather than using a callback function, determines a cleaner code and simplifies the management of both the result and errors.
@@ -329,3 +329,37 @@ Implementing a simulated price check from different providers using promises. On
 
 ### Video resources
 - [JavaScript Promises -- Tutorial for Beginners](https://youtu.be/TnhCX0KkPqs?si=dzD5Zi1EjFK9nBkQ) by ColorCode
+
+
+## Session 12 (Course 16) - OOP
+
+### Session projects
+1. [Implementing a click counter in OOP](https://siit-webdev-52.github.io/js-courses/course12/01-oop-demo/)
+2. [Implementing a turtle race using OOP](https://siit-webdev-52.github.io/js-courses/course12/02-oop-turtle-race/)
+
+### Objects
+Objects are collections of key-value pairs, where the values can be data (properties) or functions (methods).
+
+### Classes
+Classes are blueprints for creating objects. They encapsulate data and methods that operate on that data.
+
+### Why use OOP?
+1. __Reusability:__ Code can be reused across the application, reducing redundancy and saving development time.
+2. __Scalability:__  It's easier to scale applications as new features and requirements are added.
+3. __Easier Problem Modeling:__ OOP aligns with real-world concepts, making it easier to design solutions.
+4. __Easier Collaboration:__ Developers can work on different classes or objects independently without affecting other parts of the application.
+5. __Maintainability:__ OOP promotes cleaner and more modular code, which simplifies debugging and future updates.
+
+### Video resources
+- [Learn JavaScript OBJECTS in 7 minutes!](https://youtu.be/lo7o91qLzxc?si=mVVQ-fMnSI7y6lEv) by Bro Code
+- [What is THIS in JavaScript?](https://youtu.be/lo7o91qLzxc?si=mVVQ-fMnSI7y6lEv) by Bro Code
+- [JavaScript CONSTRUCTORS in 5 minutes!](https://youtu.be/WPmAu26LZKo?si=ty_jA-CT-gvbw6GC) by Bro Code
+- [Learn JavaScript CLASSES in 6 minutes!](https://youtu.be/U2vxAEiaVRY?si=kBc9Yyj3VAUXoBmU) by Bro Code
+
+### Individual study
+- [What is Factory Function in JavaScript? - JS Tutorial](https://youtu.be/lE_79wkP-1U?si=wIAOMGYuWYVgMUwP) by ColorCode
+- [What is Constructor Function in JavaScript? - JS Tutorial](https://youtu.be/Jdlo8ZDt5Jg?si=HwRGAsODDnb9kpEg) by ColorCode
+- [Factory Function vs. Constructor vs. Class - JavaScript Tutorial](https://youtu.be/fbuyliXlDGI?si=MikXoGjx_xV87XaC) by ColorCode
+
+
+## Session 13 (Course 17) - OOP Inheritance & BOM
