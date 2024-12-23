@@ -363,3 +363,27 @@ Classes are blueprints for creating objects. They encapsulate data and methods t
 
 
 ## Session 13 (Course 17) - OOP Inheritance & BOM
+
+### Session project
+1. [Creating a Teenage Mutant Ninja Turtle by extending the Turtle class](https://siit-webdev-52.github.io/js-courses/course13/01-oop/)
+
+### OOP Inheritance 
+Inheritance is a core concept in Object-Oriented Programming (OOP) that allows one class (called a __subclass__ or __child class__) to inherit the properties and methods of another class (called a __superclass__ or __parent class__). 
+
+### Some elements of the BOM
+- The location object
+- The window object
+- Cookies
+- Local storage
+- Geolocation browser API
+
+### Video resources
+- [Learn JavaScript INHERITANCE in 7 minutes!](https://youtu.be/DqUPa0D2N78?si=L24hfDRK592Zkpi1) by Bro Code
+- [Window Object: move, open, close, & size - Beau teaches JavaScript](https://youtu.be/ZJng8ls8uH0?si=s2ARQMqAhcJX3P1o) by freeCodeCamp.org
+- [How to Use Local Storage in JavaScript](https://youtu.be/k8yJCeuP6I8?si=gzeCqRh4mLOA-cB5) by dcode
+
+### Individual study
+- [Inheritance in JavaScript - Prototypal Inheritance tutorial](https://youtu.be/jnME98ckDbQ?si=gAUcUBT_vPdRbUnz) by ColorCode
+- [JavaScript Prototypal inheritance - Tutorial](https://youtu.be/1UTqFAjYx1k?si=KVmKR2yyhubifGql) by ColorCode
+- [Learn how JavaScript COOKIES work!](https://youtu.be/i7oL_K_FmM8?si=MxtU0NX4-dOG8Lk5) by Bro Code
+- [Using the Geolocation API - JavaScript Tutorial](https://youtu.be/916M64DuRnk?si=XgZLPoXGoQR1Xis8) by dcode
