@@ -387,3 +387,29 @@ Inheritance is a core concept in Object-Oriented Programming (OOP) that allows o
 - [JavaScript Prototypal inheritance - Tutorial](https://youtu.be/1UTqFAjYx1k?si=KVmKR2yyhubifGql) by ColorCode
 - [Learn how JavaScript COOKIES work!](https://youtu.be/i7oL_K_FmM8?si=MxtU0NX4-dOG8Lk5) by Bro Code
 - [Using the Geolocation API - JavaScript Tutorial](https://youtu.be/916M64DuRnk?si=XgZLPoXGoQR1Xis8) by dcode
+
+#React
+
+## Setup and Getting Started
+
+1. `git pull` this repo
+2. Navigate (in the terminal) to the react folder `cd <path to this repo folder>/react`
+3. `npm install`
+4. Check that in the react folder you now have a `node_modules` folder
+5. `npm run dev`
+6. Profit 🤑
+7. To stop the development server (started at point 5 above) from running in the terminal without killing the terminal press `CTRL+C` in the terminal window where it's running.
+
+**!! Attention !!** Make sure you run the install command in the corect folder. It should contain the package.json, you can check this by typing `ls -al` and if you see package.json in the list it's fine, if not `cd` to the right folder.
+
+**Tip** If you want to use the terminal from VSCode and want it to automatically point to the right path like we did in our session, open the "react" folder in VSCode as a project not this whole repo!!!
+
+## Start with React from scratch
+1. Open a terminal and navigate to a folder where you want to setup your project
+2. `npm init vite@latest`
+3. Name the folder/project however you want
+4. Select React, JavaScript + SWC
+5. Navigate to the newly created folder named in step 3 above with `cd`
+6. `npm install`
+7. `npm run dev`
+8. `code .` to open the folder in VSCode
