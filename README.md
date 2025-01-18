@@ -174,7 +174,7 @@
 
 
 
-## Session 7 (Course 10)
+## Session 7 (Course 11)
 
 ### RESTful APIs
 - HTTP Request / Response
@@ -200,7 +200,7 @@ ByteByteGo
 
 
 
-## Session 8 (Course 10)
+## Session 8 (Course 12)
 
 ### Session project
 [Implementation of a UI for presenting data retrieved from an API](https://siit-webdev-52.github.io/js-courses/course08/01-fetch-recap)
@@ -227,7 +227,7 @@ JSConf
 
 
 
-## Session 9 (Course 10)
+## Session 9 (Course 13)
 
 ### Part 1 - JSON Server
 - **Node.js** - a JavaScript runtime that allows you to run JavaScript on the server-side
@@ -266,7 +266,7 @@ Common higher-order functions include map(), filter(), and reduce(), which opera
 
 
 
-## Session 10 (Course 10)
+## Session 10 (Course 14)
 
 ### Part 1 - Assigning by value vs assigning by reference 
 - **The Stack and the Heap** - areas of memory used for storing data
@@ -308,7 +308,7 @@ A **Promise** in JavaScript is an object that represents the eventual completion
 
 
 
-## Session 11 (Course 10) - Promises
+## Session 11 (Course 15) - Promises
 
 ### Part 1 - Avoiding a callback in fetch by using promises
 Handling the asynchronous operation with Promises directly, rather than using a callback function, determines a cleaner code and simplifies the management of both the result and errors.
@@ -329,3 +329,87 @@ Implementing a simulated price check from different providers using promises. On
 
 ### Video resources
 - [JavaScript Promises -- Tutorial for Beginners](https://youtu.be/TnhCX0KkPqs?si=dzD5Zi1EjFK9nBkQ) by ColorCode
+
+
+## Session 12 (Course 16) - OOP
+
+### Session projects
+1. [Implementing a click counter in OOP](https://siit-webdev-52.github.io/js-courses/course12/01-oop-demo/)
+2. [Implementing a turtle race using OOP](https://siit-webdev-52.github.io/js-courses/course12/02-oop-turtle-race/)
+
+### Objects
+Objects are collections of key-value pairs, where the values can be data (properties) or functions (methods).
+
+### Classes
+Classes are blueprints for creating objects. They encapsulate data and methods that operate on that data.
+
+### Why use OOP?
+1. __Reusability:__ Code can be reused across the application, reducing redundancy and saving development time.
+2. __Scalability:__  It's easier to scale applications as new features and requirements are added.
+3. __Easier Problem Modeling:__ OOP aligns with real-world concepts, making it easier to design solutions.
+4. __Easier Collaboration:__ Developers can work on different classes or objects independently without affecting other parts of the application.
+5. __Maintainability:__ OOP promotes cleaner and more modular code, which simplifies debugging and future updates.
+
+### Video resources
+- [Learn JavaScript OBJECTS in 7 minutes!](https://youtu.be/lo7o91qLzxc?si=mVVQ-fMnSI7y6lEv) by Bro Code
+- [What is THIS in JavaScript?](https://youtu.be/lo7o91qLzxc?si=mVVQ-fMnSI7y6lEv) by Bro Code
+- [JavaScript CONSTRUCTORS in 5 minutes!](https://youtu.be/WPmAu26LZKo?si=ty_jA-CT-gvbw6GC) by Bro Code
+- [Learn JavaScript CLASSES in 6 minutes!](https://youtu.be/U2vxAEiaVRY?si=kBc9Yyj3VAUXoBmU) by Bro Code
+
+### Individual study
+- [What is Factory Function in JavaScript? - JS Tutorial](https://youtu.be/lE_79wkP-1U?si=wIAOMGYuWYVgMUwP) by ColorCode
+- [What is Constructor Function in JavaScript? - JS Tutorial](https://youtu.be/Jdlo8ZDt5Jg?si=HwRGAsODDnb9kpEg) by ColorCode
+- [Factory Function vs. Constructor vs. Class - JavaScript Tutorial](https://youtu.be/fbuyliXlDGI?si=MikXoGjx_xV87XaC) by ColorCode
+
+
+## Session 13 (Course 17) - OOP Inheritance & BOM
+
+### Session project
+1. [Creating a Teenage Mutant Ninja Turtle by extending the Turtle class](https://siit-webdev-52.github.io/js-courses/course13/01-oop/)
+
+### OOP Inheritance 
+Inheritance is a core concept in Object-Oriented Programming (OOP) that allows one class (called a __subclass__ or __child class__) to inherit the properties and methods of another class (called a __superclass__ or __parent class__). 
+
+### Some elements of the BOM
+- The location object
+- The window object
+- Cookies
+- Local storage
+- Geolocation browser API
+
+### Video resources
+- [Learn JavaScript INHERITANCE in 7 minutes!](https://youtu.be/DqUPa0D2N78?si=L24hfDRK592Zkpi1) by Bro Code
+- [Window Object: move, open, close, & size - Beau teaches JavaScript](https://youtu.be/ZJng8ls8uH0?si=s2ARQMqAhcJX3P1o) by freeCodeCamp.org
+- [How to Use Local Storage in JavaScript](https://youtu.be/k8yJCeuP6I8?si=gzeCqRh4mLOA-cB5) by dcode
+
+### Individual study
+- [Inheritance in JavaScript - Prototypal Inheritance tutorial](https://youtu.be/jnME98ckDbQ?si=gAUcUBT_vPdRbUnz) by ColorCode
+- [JavaScript Prototypal inheritance - Tutorial](https://youtu.be/1UTqFAjYx1k?si=KVmKR2yyhubifGql) by ColorCode
+- [Learn how JavaScript COOKIES work!](https://youtu.be/i7oL_K_FmM8?si=MxtU0NX4-dOG8Lk5) by Bro Code
+- [Using the Geolocation API - JavaScript Tutorial](https://youtu.be/916M64DuRnk?si=XgZLPoXGoQR1Xis8) by dcode
+
+#React
+
+## Setup and Getting Started
+
+1. `git pull` this repo
+2. Navigate (in the terminal) to the react folder `cd <path to this repo folder>/react`
+3. `npm install`
+4. Check that in the react folder you now have a `node_modules` folder
+5. `npm run dev`
+6. Profit 🤑
+7. To stop the development server (started at point 5 above) from running in the terminal without killing the terminal press `CTRL+C` in the terminal window where it's running.
+
+**!! Attention !!** Make sure you run the install command in the corect folder. It should contain the package.json, you can check this by typing `ls -al` and if you see package.json in the list it's fine, if not `cd` to the right folder.
+
+**Tip** If you want to use the terminal from VSCode and want it to automatically point to the right path like we did in our session, open the "react" folder in VSCode as a project not this whole repo!!!
+
+## Start with React from scratch
+1. Open a terminal and navigate to a folder where you want to setup your project
+2. `npm init vite@latest`
+3. Name the folder/project however you want
+4. Select React, JavaScript + SWC
+5. Navigate to the newly created folder named in step 3 above with `cd`
+6. `npm install`
+7. `npm run dev`
+8. `code .` to open the folder in VSCode
