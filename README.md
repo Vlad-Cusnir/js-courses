@@ -413,3 +413,9 @@ Inheritance is a core concept in Object-Oriented Programming (OOP) that allows o
 6. `npm install`
 7. `npm run dev`
 8. `code .` to open the folder in VSCode
+
+## When you pull
+
+If we updated a dependency using `npm install` (like we did with `clsx`) during the course you will have to `git pull` and then `npm install`.
+
+Make sure you run the command in the right folder, `npm install` needs to run in the folder that contains the project (and package.json).
