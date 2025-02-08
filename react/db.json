@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Paul",
+      "lastName": "Negoescu",
+      "email": "p@p.com",
+      "password": "dasdsadas"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "title": "Buy Milk",
+      "completed": true,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Commit everything to github",
+      "completed": false,
+      "userId": 1
+    }
+  ]
+}

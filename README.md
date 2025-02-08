@@ -419,3 +419,17 @@ Inheritance is a core concept in Object-Oriented Programming (OOP) that allows o
 If we updated a dependency using `npm install` (like we did with `clsx`) during the course you will have to `git pull` and then `npm install`.
 
 Make sure you run the command in the right folder, `npm install` needs to run in the folder that contains the project (and package.json).
+
+## We now have a dummy API server installed (after the third react course)
+
+As stated in the previous section, DON'T FORGET TO `npm install` after pulling the new code.
+
+You can start the development server like you did until now: `npm run dev`. This will start the React App itself.
+
+To start the API server open a new terminal (git bash) window, navigate to the correct folder (the `react` folder in this repo) and run `npm run server`.
+
+The file `db.json` is your database, it can have any sort of resources and entities you can dream of and the server will serve them to you!
+
+## Don't forget!!
+
+You can always take the contents of the `react` folder in this repo and move them anywhere, run `npm install` and everything will still work (just make sure you are running all terminal commands in the right folder!!!!!).
