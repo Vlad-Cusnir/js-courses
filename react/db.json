@@ -16,10 +16,28 @@
       "userId": 1
     },
     {
-      "id": 2,
-      "title": "Commit everything to github",
+      "title": "Test add todo",
       "completed": false,
-      "userId": 1
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "Asa functioneaza",
+      "completed": true,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "title": "Hai sa vedem",
+      "completed": false,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "title": "test",
+      "completed": false,
+      "userId": 1,
+      "id": 7
     }
   ]
 }
