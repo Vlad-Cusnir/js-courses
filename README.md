@@ -433,3 +433,9 @@ The file `db.json` is your database, it can have any sort of resources and entit
 ## Don't forget!!
 
 You can always take the contents of the `react` folder in this repo and move them anywhere, run `npm install` and everything will still work (just make sure you are running all terminal commands in the right folder!!!!!).
+
+## After course 5
+
+We now have boardgames in db.json and we have yup as a validator, here are the docs to yup: [Yup Github](https://github.com/jquense/yup?tab=readme-ov-file#schemavalidatesyncvalue-any-options-object-infertypeschema)
+
+Don't forget to `npm install`!

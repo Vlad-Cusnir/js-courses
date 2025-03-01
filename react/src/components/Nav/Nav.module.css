@@ -12,6 +12,7 @@
 .mainMenu {
   display: flex;
   gap: 1em;
+  flex-grow: 1;
 
   margin: 0;
   padding: 0;
@@ -30,6 +31,10 @@
       color: #afafaf;
     }
   }
+}
+
+.pushRight {
+  margin-left: auto;
 }
 
 .logo {
