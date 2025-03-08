@@ -388,7 +388,7 @@ Inheritance is a core concept in Object-Oriented Programming (OOP) that allows o
 - [Learn how JavaScript COOKIES work!](https://youtu.be/i7oL_K_FmM8?si=MxtU0NX4-dOG8Lk5) by Bro Code
 - [Using the Geolocation API - JavaScript Tutorial](https://youtu.be/916M64DuRnk?si=XgZLPoXGoQR1Xis8) by dcode
 
-#React
+# React
 
 ## Setup and Getting Started
 
