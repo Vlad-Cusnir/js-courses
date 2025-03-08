@@ -1,68 +1,41 @@
-import { useState } from 'react';
-import { object, ref, string } from 'yup';
-
-const validationSchema = object({
-  email: string().required('Please provide an email address.').email('The email address does not appear to have a valid format.'),
-  password: string().required('Please type a password.').min(6, 'The password needs to be at least 6 characters long.'),
-  retypePassword: string().required('Please type your password again.').oneOf([ref('password')], 'The passwords did not match.'),
-  firstName: string().required('Please tell us your first name.'),
-  lastName: string().required('Please tell us your last name.'),
-});
-
-function validateInput(values, schema) {
-  try {
-    schema.validateSync(values, { abortEarly: false });
-    return null;
-  } catch (e) {
-    const res = {};
-    for(const error of e.inner) {
-      res[error.path] = error.message;
-    }
-    return res;    
-  }
-}
+import { useNavigate } from 'react-router';
+import { toast } from 'react-toastify';
+import { useValidateForm } from '../../utils/useValidateForm';
+import { registerSchema } from './validationSchemas';
 
 export function Register() {
-  const [values, setValues] = useState({
+  const { values, errors, handleSubmit, handleInputChange } = useValidateForm(registerSchema, {
     email: '',
     password: '',
     retypePassword: '',
     firstName: '',
     lastName: '',
   });
-  const [errors, setErrors] = useState(null);
-  const [shouldValidateAsYouType, setShouldValidateAsYouType] = useState(false);
+  const navigate = useNavigate();
 
-  function handleInputChange(e) {
-    // const newValues = { ...values };
-    // newValues[e.target.name] = e.target.value;
-    // setValues(newValues);
-    // setValues({ ...values, [e.target.name]: e.target.value })
+  async function onSubmit(values) {
+    // const {retypePassword, ...sendToServer} = values;
+    const sendToServer = { ...values };
+    delete sendToServer.retypePassword;
 
-    const newValues = {...values, [e.target.name]: e.target.value};
-    if(shouldValidateAsYouType) {
-      const errors = validateInput(newValues, validationSchema);
-      setErrors(errors);
-    }
-    setValues(newValues);
-    // values este inca valoarea veche de dinainte de set !!!!!!!!!!!!
-  }
+    const data = await fetch('http://localhost:3000/register', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(sendToServer),
+    }).then((res) => res.json());
 
-  function handleSubmit(e) {
-    e.preventDefault();
-
-    const errors = validateInput(values, validationSchema);
-    if(errors) {
-      setShouldValidateAsYouType(true);
-      setErrors(errors);
+    if(data.accessToken) {
+      toast.success('You have logged in successfully.');
+      navigate('/');
     } else {
-      console.log('Yupiiiii!');
-      
+      toast.error(data);
     }
   }
 
   return (
-    <form className="brandForm" onSubmit={handleSubmit} noValidate>
+    <form className="brandForm" onSubmit={handleSubmit(onSubmit)} noValidate>
       <h1 className="spanFull">Register</h1>
       <label htmlFor="email">Email</label>
       <input
@@ -90,7 +63,9 @@ export function Register() {
         value={values.retypePassword}
         onChange={handleInputChange}
       />
-      {errors?.retypePassword && <p className="errorMessage">{errors.retypePassword}</p>}
+      {errors?.retypePassword && (
+        <p className="errorMessage">{errors.retypePassword}</p>
+      )}
       <label htmlFor="firstName">First Name</label>
       <input
         type="text"

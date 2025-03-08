@@ -1,11 +1,46 @@
 {
   "users": [
     {
-      "id": 1,
+      "email": "p@p.com",
+      "password": "$2a$10$KLTKEsT9zFPgXjQNpEuNNOybJsZahH8Bdj8xOfH2C619/jNSPQh8O",
       "firstName": "Paul",
       "lastName": "Negoescu",
-      "email": "p@p.com",
-      "password": "dasdsadas"
+      "id": 1
+    },
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$pKZ6eqigICDDwqNHPm66MuZYr7vD2mHfK9f7CUdk44QhrKh27UYHS",
+      "firstName": "Paul",
+      "lastName": "Negoescu",
+      "id": 2
+    },
+    {
+      "email": "q@q.co",
+      "password": "$2a$10$MCcac5ZBLHRdyjkFXxXE3.Y0396xfYUDBduD94yUU15m7KP25uw1K",
+      "firstName": "Paul",
+      "lastName": "Test",
+      "id": 3
+    },
+    {
+      "email": "w@w.com",
+      "password": "$2a$10$DxhK8WdgQNLmgsaQehn3yuKwcWI/VqUxYoHEMKwI4lbCrFSKtO2sy",
+      "firstName": "Paul",
+      "lastName": "Test",
+      "id": 4
+    },
+    {
+      "email": "y@y.com",
+      "password": "$2a$10$XYAligmvjMeaRx3UokbgeuYD9bz68WTCdyVcJCrMrgztbw1Ksf8Y2",
+      "firstName": "Ioana",
+      "lastName": "Jura",
+      "id": 5
+    },
+    {
+      "email": "asd@zsd.com",
+      "password": "$2a$10$6/4f.HoVpQQ2EvCEzSkRNeRhO9TeJhuTQ9EdtpKHZ2Tin22RV.bKS",
+      "firstName": "Paul",
+      "lastName": "Negoescu\\",
+      "id": 6
     }
   ],
   "todos": [
