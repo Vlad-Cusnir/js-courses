@@ -16,7 +16,7 @@ export function Nav() {
         <li><BrandNavLink to="counter">Counter</BrandNavLink></li>
         <li><BrandNavLink to="weather">Weather</BrandNavLink></li>
         <li><BrandNavLink to="todos">Todos</BrandNavLink></li>
-        <li><BrandNavLink to="register">Register</BrandNavLink></li>
+        <li className={styles.pushRight}><BrandNavLink to="register">Register</BrandNavLink></li>
         <li><BrandNavLink to="login">Login</BrandNavLink></li>
       </menu>
     </nav>

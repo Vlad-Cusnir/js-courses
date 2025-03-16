@@ -388,7 +388,7 @@ Inheritance is a core concept in Object-Oriented Programming (OOP) that allows o
 - [Learn how JavaScript COOKIES work!](https://youtu.be/i7oL_K_FmM8?si=MxtU0NX4-dOG8Lk5) by Bro Code
 - [Using the Geolocation API - JavaScript Tutorial](https://youtu.be/916M64DuRnk?si=XgZLPoXGoQR1Xis8) by dcode
 
-#React
+# React
 
 ## Setup and Getting Started
 
@@ -433,3 +433,9 @@ The file `db.json` is your database, it can have any sort of resources and entit
 ## Don't forget!!
 
 You can always take the contents of the `react` folder in this repo and move them anywhere, run `npm install` and everything will still work (just make sure you are running all terminal commands in the right folder!!!!!).
+
+## After course 5
+
+We now have boardgames in db.json and we have yup as a validator, here are the docs to yup: [Yup Github](https://github.com/jquense/yup?tab=readme-ov-file#schemavalidatesyncvalue-any-options-object-infertypeschema)
+
+Don't forget to `npm install`!
