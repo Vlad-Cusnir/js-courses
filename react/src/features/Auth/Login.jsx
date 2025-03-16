@@ -1,7 +1,8 @@
-import { useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
 import { loginSchema } from './validationSchemas';
 import { useValidateForm } from '../../utils/useValidateForm';
+import { useAuthContext } from './AuthContext';
+import { useRedirectWhenLoggedIn } from './useRedirectWhenLoggedIn';
 
 export function Login() {
   const { values, errors, handleInputChange, handleSubmit } = useValidateForm(loginSchema, {
@@ -9,7 +10,8 @@ export function Login() {
     password: '',
   });
   
-  const navigate = useNavigate();
+  const { login } = useAuthContext();
+  useRedirectWhenLoggedIn();
 
   async function onSubmit(values) {
     const data = await fetch('http://localhost:3000/login', {
@@ -22,7 +24,7 @@ export function Login() {
     
     if(data.accessToken) {
       toast.success('You have logged in successfully.');
-      navigate('/');
+      login(data);
     } else {
       toast.error(data);
     }

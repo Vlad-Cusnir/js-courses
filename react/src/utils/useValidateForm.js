@@ -1,4 +1,4 @@
-import { useState } from "react";import { toast } from "react-toastify";
+import { useEffect, useRef, useState } from "react";import { toast } from "react-toastify";
 
 function validateInput(values, schema) {
   try {
@@ -13,10 +13,28 @@ function validateInput(values, schema) {
   }
 }
 
+function areObjectsEqual(o1, o2) {
+  for (const prop in o1) {
+    if(o1[prop] !== o2[prop]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
 export function useValidateForm(schema, initialValues) {
   const [values, setValues] = useState(initialValues);
+  const hasBeenSynced = useRef(false);
   const [errors, setErrors] = useState(null);
   const [shouldValidateAsYouType, setShouldValidateAsYouType] = useState(false);
+
+  useEffect(() => {
+    if(!hasBeenSynced.current && !areObjectsEqual(initialValues, values)) {
+      hasBeenSynced.current = true;
+      setValues(initialValues);
+    }
+  }, [initialValues]);
 
   function isValid() {
     const ret = validateInput(values, schema);
