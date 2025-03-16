@@ -1,16 +1,23 @@
 import { useEffect, useState } from 'react';
 import { TodoItem } from './TodoItem';
+import { toast } from 'react-toastify';
+import { useAuthContext } from '../Auth/AuthContext';
 
 const apiUrl = 'http://localhost:3000/todos';
 
 export function TodosList() {
   const [todos, setTodos] = useState(null);
+  const { accessToken, user } = useAuthContext();
 
   useEffect(() => {
-    fetch(apiUrl)
+    fetch(`${apiUrl}?userId=${user.id}`, {
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+      },
+    })
       .then((res) => res.json())
       .then((data) => setTodos(data));
-  }, []);
+  }, [user, accessToken]);
 
   async function handleAddTodo(e) {
     e.preventDefault();
@@ -19,18 +26,20 @@ export function TodosList() {
     const newTodo = {
       title: values.get('title'),
       completed: false,
-      userId: 1,
+      userId: user.id,
     };
 
     const createdTodo = await fetch(apiUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+        Authorization: `Bearer ${accessToken}`,
       },
       body: JSON.stringify(newTodo),
     }).then((res) => res.json());
 
-    setTodos([...todos, createdTodo]);
+    const newTodos = Array.isArray(todos) ? todos : [];
+    setTodos([...newTodos, createdTodo]);
   }
 
   // async function handleDeleteTodo({ id }) {
@@ -40,6 +49,9 @@ export function TodosList() {
 
     await fetch(`${apiUrl}/${id}`, {
       method: 'DELETE',
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+      }
     });
 
     setTodos(todos.filter((t) => t.id !== id));
@@ -50,9 +62,14 @@ export function TodosList() {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
+        Authorization: `Bearer ${accessToken}`,
       },
       body: `{"completed": ${completed}}`,
     });
+  }
+
+  if (typeof todos === 'string') {
+    toast.error(todos);
   }
 
   return (
@@ -65,14 +82,15 @@ export function TodosList() {
       </form>
       {!todos && <strong>Loading ...</strong>}
       <ul>
-        {todos?.map((todo) => (
-          <TodoItem
-            data={todo}
-            key={todo.id}
-            onDelete={handleDeleteTodo}
-            onComplete={handleCompleteTodo}
-          />
-        ))}
+        {typeof todos !== 'string' &&
+          todos?.map((todo) => (
+            <TodoItem
+              data={todo}
+              key={todo.id}
+              onDelete={handleDeleteTodo}
+              onComplete={handleCompleteTodo}
+            />
+          ))}
       </ul>
     </>
   );
